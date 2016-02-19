@@ -4,7 +4,7 @@ import (
 	"flag"
 	"runtime"
 
-	"github.com/onsi/ginkgo/config"
+	"github.com/scalingdata/ginkgo/config"
 )
 
 type RunWatchAndBuildCommandFlags struct {

@@ -3,8 +3,8 @@ package leafnodes
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/scalingdata/ginkgo/internal/failer"
+	"github.com/scalingdata/ginkgo/types"
 	"io/ioutil"
 	"net/http"
 	"reflect"

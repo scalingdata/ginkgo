@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 )
 
 var _ = Describe("EventuallyFailing", func() {

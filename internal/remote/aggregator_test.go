@@ -1,13 +1,13 @@
 package remote_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 
-	"github.com/onsi/ginkgo/config"
-	. "github.com/onsi/ginkgo/internal/remote"
-	st "github.com/onsi/ginkgo/reporters/stenographer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/scalingdata/ginkgo/config"
+	. "github.com/scalingdata/ginkgo/internal/remote"
+	st "github.com/scalingdata/ginkgo/reporters/stenographer"
+	"github.com/scalingdata/ginkgo/types"
 	"time"
 )
 

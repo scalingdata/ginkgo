@@ -3,7 +3,7 @@ package hanging_suite_test
 import (
 	"fmt"
 	"time"
-	. "github.com/onsi/ginkgo"
+	. "github.com/scalingdata/ginkgo"
 )
 
 var _ = AfterSuite(func() {

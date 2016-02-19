@@ -14,11 +14,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
-	"github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/reporters/stenographer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/scalingdata/ginkgo/config"
+	"github.com/scalingdata/ginkgo/ginkgo/testsuite"
+	"github.com/scalingdata/ginkgo/internal/remote"
+	"github.com/scalingdata/ginkgo/reporters/stenographer"
+	"github.com/scalingdata/ginkgo/types"
 )
 
 type TestRunner struct {

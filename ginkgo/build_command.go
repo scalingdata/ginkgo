@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/onsi/ginkgo/ginkgo/interrupthandler"
-	"github.com/onsi/ginkgo/ginkgo/testrunner"
+	"github.com/scalingdata/ginkgo/ginkgo/interrupthandler"
+	"github.com/scalingdata/ginkgo/ginkgo/testrunner"
 )
 
 func BuildBuildCommand() *Command {

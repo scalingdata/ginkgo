@@ -1,10 +1,10 @@
 package A_test
 
 import (
-	. "github.com/onsi/ginkgo/integration/_fixtures/watch_fixtures/A"
+	. "github.com/scalingdata/ginkgo/integration/_fixtures/watch_fixtures/A"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 )
 
 var _ = Describe("A", func() {

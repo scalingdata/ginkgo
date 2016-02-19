@@ -1,15 +1,15 @@
 package containernode_test
 
 import (
-	"github.com/onsi/ginkgo/internal/leafnodes"
+	"github.com/scalingdata/ginkgo/internal/leafnodes"
 	"math/rand"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	. "github.com/onsi/ginkgo/internal/containernode"
-	"github.com/onsi/ginkgo/types"
+	"github.com/scalingdata/ginkgo/internal/codelocation"
+	. "github.com/scalingdata/ginkgo/internal/containernode"
+	"github.com/scalingdata/ginkgo/types"
 )
 
 var _ = Describe("Container Node", func() {

@@ -1,8 +1,8 @@
 package fail_fixture_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 )
 
 var _ = It("handles top level failures", func() {

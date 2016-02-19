@@ -3,7 +3,7 @@ package watch
 import (
 	"fmt"
 
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/scalingdata/ginkgo/ginkgo/testsuite"
 )
 
 type SuiteErrors map[testsuite.TestSuite]error

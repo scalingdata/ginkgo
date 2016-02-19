@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/interrupthandler"
-	"github.com/onsi/ginkgo/ginkgo/testrunner"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/scalingdata/ginkgo/config"
+	"github.com/scalingdata/ginkgo/ginkgo/interrupthandler"
+	"github.com/scalingdata/ginkgo/ginkgo/testrunner"
+	"github.com/scalingdata/ginkgo/ginkgo/testsuite"
 )
 
 type SuiteRunner struct {

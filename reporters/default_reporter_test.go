@@ -3,12 +3,12 @@ package reporters_test
 import (
 	"time"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/reporters"
-	st "github.com/onsi/ginkgo/reporters/stenographer"
-	"github.com/onsi/ginkgo/types"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	"github.com/scalingdata/ginkgo/config"
+	"github.com/scalingdata/ginkgo/reporters"
+	st "github.com/scalingdata/ginkgo/reporters/stenographer"
+	"github.com/scalingdata/ginkgo/types"
+	. "github.com/scalingdata/gomega"
 )
 
 var _ = Describe("DefaultReporter", func() {

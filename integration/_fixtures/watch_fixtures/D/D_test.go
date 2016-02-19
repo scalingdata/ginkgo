@@ -1,10 +1,10 @@
 package D_test
 
 import (
-	. "github.com/onsi/ginkgo/integration/_fixtures/watch_fixtures/C"
+	. "github.com/scalingdata/ginkgo/integration/_fixtures/watch_fixtures/C"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 )
 
 var _ = Describe("D", func() {

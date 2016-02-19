@@ -11,7 +11,7 @@ Here are some of the more commonly used commands:
 
 To install:
 
-	go install github.com/onsi/ginkgo/ginkgo
+	go install github.com/scalingdata/ginkgo/ginkgo
 
 To run tests:
 
@@ -124,8 +124,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/scalingdata/ginkgo/config"
+	"github.com/scalingdata/ginkgo/ginkgo/testsuite"
 )
 
 const greenColor = "\x1b[32m"

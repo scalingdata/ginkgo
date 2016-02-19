@@ -3,9 +3,9 @@ Ginkgo is a BDD-style testing framework for Golang
 
 The godoc documentation describes Ginkgo's API.  More comprehensive documentation (with examples!) is available at http://onsi.github.io/ginkgo/
 
-Ginkgo's preferred matcher library is [Gomega](http://github.com/onsi/gomega)
+Ginkgo's preferred matcher library is [Gomega](http://github.com/scalingdata/gomega)
 
-Ginkgo on Github: http://github.com/onsi/ginkgo
+Ginkgo on Github: http://github.com/scalingdata/ginkgo
 
 Ginkgo is MIT-Licensed
 */
@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/internal/suite"
-	"github.com/onsi/ginkgo/internal/testingtproxy"
-	"github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/reporters/stenographer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/scalingdata/ginkgo/config"
+	"github.com/scalingdata/ginkgo/internal/codelocation"
+	"github.com/scalingdata/ginkgo/internal/failer"
+	"github.com/scalingdata/ginkgo/internal/remote"
+	"github.com/scalingdata/ginkgo/internal/suite"
+	"github.com/scalingdata/ginkgo/internal/testingtproxy"
+	"github.com/scalingdata/ginkgo/internal/writer"
+	"github.com/scalingdata/ginkgo/reporters"
+	"github.com/scalingdata/ginkgo/reporters/stenographer"
+	"github.com/scalingdata/ginkgo/types"
 )
 
 const GINKGO_VERSION = config.VERSION

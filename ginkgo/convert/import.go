@@ -70,13 +70,13 @@ func addGinkgoImports(rootNode *ast.File) {
 			continue
 		}
 
-		if importSpec.Path.Value == "\"github.com/onsi/ginkgo\"" {
+		if importSpec.Path.Value == "\"github.com/scalingdata/ginkgo\"" {
 			needsGinkgo = false
 		}
 	}
 
 	if needsGinkgo {
-		importDecl.Specs = append(importDecl.Specs, createImport(".", "\"github.com/onsi/ginkgo\""))
+		importDecl.Specs = append(importDecl.Specs, createImport(".", "\"github.com/scalingdata/ginkgo\""))
 	}
 }
 

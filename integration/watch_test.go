@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"time"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gbytes"
-	"github.com/onsi/gomega/gexec"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
+	"github.com/scalingdata/gomega/gbytes"
+	"github.com/scalingdata/gomega/gexec"
 )
 
 var _ = Describe("Watch", func() {

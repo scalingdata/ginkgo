@@ -1,6 +1,6 @@
 package D
 
-import "github.com/onsi/C"
+import "github.com/scalingdata/C"
 
 func DoIt() string {
 	return C.DoIt()

@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/types"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gexec"
+	. "github.com/scalingdata/ginkgo"
+	"github.com/scalingdata/ginkgo/types"
+	. "github.com/scalingdata/gomega"
+	"github.com/scalingdata/gomega/gexec"
 )
 
 var _ = Describe("Flags Specs", func() {

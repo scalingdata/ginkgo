@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/onsi/ginkgo/ginkgo/convert"
+	"github.com/scalingdata/ginkgo/ginkgo/convert"
 	"os"
 )
 

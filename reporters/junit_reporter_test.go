@@ -6,12 +6,12 @@ import (
 	"os"
 	"time"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	"github.com/scalingdata/ginkgo/config"
+	"github.com/scalingdata/ginkgo/internal/codelocation"
+	"github.com/scalingdata/ginkgo/reporters"
+	"github.com/scalingdata/ginkgo/types"
+	. "github.com/scalingdata/gomega"
 )
 
 var _ = Describe("JUnit Reporter", func() {

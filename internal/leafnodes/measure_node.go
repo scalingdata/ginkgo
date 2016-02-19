@@ -1,8 +1,8 @@
 package leafnodes
 
 import (
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/scalingdata/ginkgo/internal/failer"
+	"github.com/scalingdata/ginkgo/types"
 	"reflect"
 )
 

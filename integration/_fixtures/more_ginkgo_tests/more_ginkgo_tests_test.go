@@ -1,9 +1,9 @@
 package more_ginkgo_tests_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/integration/_fixtures/more_ginkgo_tests"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/ginkgo/integration/_fixtures/more_ginkgo_tests"
+	. "github.com/scalingdata/gomega"
 )
 
 var _ = Describe("MoreGinkgoTests", func() {
